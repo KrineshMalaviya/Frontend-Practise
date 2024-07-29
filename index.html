@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Project</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <style>
+        ul li:hover{
+            text-decoration: underline;
+        }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- nav-section -->
+    <nav>
+        <div class="bg-[#000000] w-full h-[4rem] flex items-center justify-between py-3 px-[5rem] ">
+            <div class="flex gap-3 justify-center items-center">
+                <img class="text-white"  width='150'  height="150" src="./Assest/logoipsum-325.svg" alt="logo">
+                <span class=" text-white text-3xl">|</span>
+                <span class="text-2xl text-white hover:underline">Help Center</span>
+            </div>
+            <div class="flex justify-center items-center gap-3">
+                <button class="text-white px-6 py-2 border-white border-2 rounded">Submit a request</button>
+                <button class="text-white px-6 py-2 border-black border-2 rounded bg-indigo-500 hover:text-black hover:bg-[#fff]">Sign in</button>
+            </div>
+        </div>
+    </nav>
+    <!-- hero-section -->
+     <section class="h-[60vh] bg-[#dadbf1] flex justify-center items-center flex-col gap-4">
+        
+        <h1 class="text-[5rem] font-semibold">How can we help?</h1>
+        <div class="relative w-[60%] hover:text-indigo-500">
+            <input class="  w-full p-3 border hover:border-indigo-500 rounded-lg shadow-lg transition-all hover:shadow-xl"  type="text" placeholder="Search">
+            <span class="text-4xl absolute  right-3">&rarr;</span>
+        </div>
+     </section>
+     <!-- feature-section -->
+    <section class="h-[150vh] bg-white-600 mt-10">
+        <div class="px-24 py-24 flex flex-col justify-center items-center gap-y-[5rem]">
+            <!-- top-box -->
+            <div class="flex justify-center items-start gap-6 mx-6">
+                <!-- left-div -->
+                <div class="flex justify-start items-center gap-6">
+                    <img width="100" height="100"  src="https://help.abstract.com/hc/theming_assets/01HZH4D4GACXWCRKK6JHQ730XD" alt="image">
+                </div>
+                <div class="w-[40%] flex flex-col justify-center items-start gap-y-4">
+                    <h1 class="text-3xl font-bold ">Using Abstract</h1>
+                    <p class="text-2xl ">Abstract lets you manage, version, and document your designs in one place.</p>
+                    <a href="#" class="hover:underline text-blue-500">Learn More &rarr;</a>
+                </div>
+                <!-- right-div -->
+                <div class="flex justify-start items-center gap-6">
+                    <img width="100" height="100"  src="https://help.abstract.com/hc/theming_assets/01HZH4D45NKFCN3388ZCBJB878" alt="image">
+                </div>
+                <div class="w-[40%] flex flex-col justify-center items-start gap-y-4">
+                    <h1 class="text-3xl font-bold ">Manage your account</h1>
+                    <p class="text-2xl ">Configure your account settings, such as your email, profile details, and password.</p>
+                    <a href="#" class="hover:underline text-blue-500">Learn More &rarr;</a>
+                </div>
+            </div>
+            <!-- Middle-box -->
+            <div class="flex justify-center items-start gap-6 mx-6">
+                <!-- left-div -->
+                <div class="flex justify-start items-center gap-6">
+                    <img width="100" height="100"  src="https://help.abstract.com/hc/theming_assets/01HZH4D3M8CRR0C2V5GREVR6HK" alt="image">
+                </div>
+                <div class="w-[40%] flex flex-col justify-center items-start gap-y-4">
+                    <h1 class="text-3xl font-bold ">Manage organizations, teams, and projects</h1>
+                    <p class="text-2xl ">Use Abstract organizations, teams, and projects to organize your people and your work.
+                    </p>
+                    <a href="#" class="hover:underline text-blue-500">Learn More &rarr;</a>
+                </div>
+                <!-- right-div -->
+                <div class="flex justify-start items-center gap-6">
+                    <img width="100" height="100"  src="https://help.abstract.com/hc/theming_assets/01HZH4D38K1S1M9WKWSQZE62YE" alt="image">
+                </div>
+                <div class="w-[40%] flex flex-col justify-center items-start gap-y-4">
+                    <h1 class="text-3xl font-bold ">Manage billing</h1>
+                    <p class="text-2xl ">Change subscriptions and payment details.</p>
+                    <a href="#" class="hover:underline text-blue-500">Learn More &rarr;</a>
+                </div>
+            </div>
+            <!-- last-box -->
+             <div class="flex justify-center items-start gap-6 mx-6">
+                <!-- left-div -->
+                <div class="flex justify-start items-center gap-6">
+                    <img width="100" height="100"  src="https://help.abstract.com/hc/theming_assets/01HZH4D3S3QY5190TZE3H8ZSVK" alt="image">
+                </div>
+                <div class="w-[40%] flex flex-col justify-center items-start gap-y-4">
+                    <h1 class="text-3xl font-bold ">Authenticate to Abstract</h1>
+                    <p class="text-2xl ">Set up and configure SSO, SCIM, and Just-in-Time provisioning.</p>
+                    <a href="#" class="hover:underline text-blue-500">Learn More &rarr;</a>
+                </div>
+                <!-- right-div -->
+                <div class="flex justify-start items-center gap-6">
+                    <img width="100" height="100"  src="https://help.abstract.com/hc/theming_assets/01HZH4D3G4S2K93BN3WJPT8600" alt="image">
+                </div>
+                <div class="w-[40%] flex flex-col justify-center items-start gap-y-4">
+                    <h1 class="text-3xl font-bold ">Abstract support</h1>
+                    <p class="text-2xl ">Get in touch with a human.</p>
+                    <a href="#" class="hover:underline text-blue-500">Learn More &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="h-[50vh] bg-[#000000]">
+        <div class="text-white flex justify-between  ">
+            <div class="flex justify-around w-[60%] p-8">
+            <div class="">
+                <h1 class="text-2xl font-bold py-2">Abstract</h1>
+                <ul>
+                    <li><a href="#">Start Trial</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Download</a></li>
+                </ul>
+            </div>
+            <div>
+                <h1 class="text-2xl font-bold py-2">Resources</h1>
+                <ul>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Relase Note</a></li>
+                    <li><a href="#">Status</a>Status</li>
+                </ul>
+            </div>
+            <div>
+                <h1 class="text-2xl font-bold py-2">Community</h1>
+                <ul>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Linkedin</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Dribble</a></li>
+                    <li><a href="#">Podcast</a></li>
+                </ul>
+            </div>
+            <div>
+                <h1 class="text-2xl font-bold py-2">Company</h1>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Carrers</a></li>
+                    <li><a href="#">Legal</a></li>
+                </ul>
+                <div class="py-5">
+                    <h2 class="text-2xl font-bold py-2">Contact Us</h2>
+                    <a href="#">info@abstract.com</a>
+                </div>
+                
+                
+            </div>
+            </div>
+            <div class="flex flex-col justify-end w-[25%] p-8">
+                <img class="py-6 text-white"  width="150" height="150" src="./Assest/logoipsum-325.svg" alt="logo">
+                <h2><i class="ri-copyright-line"></i>Copyright 2023</h2>
+                <h2>Abstract Studio Design, Inc.</h2>
+                <h2>All rights reserved</h2>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
